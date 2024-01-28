@@ -1,9 +1,40 @@
+/* class --> .text-red {} */
+/* id --> #id-bilgisi {} */
+
+h1,h2,h3,h4 {
+  color:tomato;
+}
+
+#first-article{ 
+  font-size: 20px;
+}
+
+body {background-color: #DAA520;}
+.text-red{
+  color:yellow
+}
 h1 {
     color: blue;
     margin-left: 31px;
   }
+  h2{
+    color: blue;
+    font-size: 20;
+    font-family: ui-serif;;
+  }
   p {
     color: red;
     font-size: small;
+    font-family: "Times New Roman", Times, serif;
     
   }
+  .fs-14{
+    font-size: 14px;
+  }
+  .fs-20{
+    font-size: 20px;
+  }
+  .fs-30{
+    font-size: 30px;
+  }
+  
