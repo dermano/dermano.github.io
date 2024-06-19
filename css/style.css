@@ -1,5 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .center {
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+}
+element.style {
+}
+user agent stylesheet
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    white-space: normal;
+    font-variant: normal;
+}
+  .container{
+    margin-top: 50px;
+    width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 50px auto 0;
+  }
+  .left-bar{
+    width: 200px;
+    float: left;
+  }
+  .content{
+    float: left;
+    width: 800px;
+  }
+  .card{
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: rgb(143, 140, 140);
+    border-radius: 10px;
+  }
+.clear {
+  clear: both;
+}
+.box { 
+      width: 300px;
+      height: 300px;
+      padding: 10px;
+      margin-right: 10px; 
+      /* margin-left: 10px; */
+      /* margin-top: 10px; */
+      /* margin-bottom: 10px; */
+      float: left;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-yellow{
+  background-color: yellow;
+}
 /* class --> .text-red {} */
 /* id --> #id-bilgisi {} */
+/* css selectors*/
+/*li:first-child{
+  color:green;
+}
+li:last-child{ 
+  color:aqua;
+}*/
+/*li:nth-child(odd){
+  color:maroon;
+}
+li:nth-child(even){
+  color:yellowgreen;
+}
+*/
+li:nth-child(2n-1){
+  color:red;
+}
+
+.color-blue.fw-normal {
+  color:blueviolet;
+  font-weight:normal;
+}
 
 h1,h2,h3,h4 {
   color:tomato;
@@ -37,4 +137,5 @@ h1 {
   .fs-30{
     font-size: 30px;
   }
-  
+
+ 
